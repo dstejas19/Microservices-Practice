@@ -1,6 +1,10 @@
 {
-    "prettier.useEditorConfig": false,
+  "prettier.useEditorConfig": false,
+  "editor.formatOnSave": true,
+  "prettier.singleQuote": true,
+  "eslint.enable": false,
+  "[yaml]": {
     "editor.formatOnSave": true,
-    "prettier.singleQuote": true,
-    "eslint.enable": false
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
